@@ -1,0 +1,49 @@
+        body {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            background-color: #F0F0F0;
+        }
+        /*Header with the firt images and title anda description*/
+        
+        .header {
+            margin: 20 27 0 27;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+        }
+        
+        .up-header {
+            margin-bottom: 10px;
+            margin: 0 25;
+        }
+        
+        .header h1 {
+            color: #FF6A28;
+            font-size: 20px;
+            text-transform: uppercase;
+            flex-direction: column;
+        }
+        /*card with ionformation about recipies*/
+        
+        .informations-header {
+            display: flex;
+        }
+        
+        .card {
+            display: flex;
+            background-color: #F0F0F0;
+            align-items: center;
+            flex-direction: column;
+            width: 118px;
+            height: 85px;
+        }
+        
+        .card img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .informations-header .card p {
+            margin: 4 0 4 0;
+        }
